@@ -1,0 +1,88 @@
+$padding:20px;
+
+.inicio__titulo--align{
+	text-align:center;
+}
+
+.inicio__subtitulo--align{
+	text-align:center;
+}
+
+.imagenes{
+	@media only screen and (min-width: 1024px){
+	display: flex;justify-content: space-around; 
+	}
+}
+
+.inicio--padding{
+	padding-top:$padding;
+	padding-bottom:$padding;
+}
+
+.frase--align {
+	text-align:center;
+}
+
+.frase--padding{
+	padding-top:$padding;
+	padding-bottom:$padding;
+}
+
+.staff--flex img {
+	display: block;
+	margin: auto;
+}
+
+.footer--position{
+	@media only screen and (min-width: 1024px){
+	display: flex; justify-content: space-between;}
+	@media only screen and (max-width: 767px){
+	display: flex; flex-direction: column;}
+}
+
+.footer--padding {
+	padding-top:$padding;
+	padding-bottom:$padding;
+}
+
+.subtitulo--padding {
+	padding-top:$padding;
+	padding-bottom:$padding;
+}
+
+.nosotros--padding{
+	padding-top:$padding;
+	padding-bottom:$padding;
+}
+
+.nosotros__imagen--padding {
+	padding-top:$padding;
+	padding-bottom:$padding;
+}
+
+.cosmeticanatural__carousel--position {
+	@media only screen and (min-width: 1024px){
+	display: flex;justify-content: center;}
+	
+}
+
+.cosmeticanatural__texto--position {
+	@media only screen and (min-width: 1024px){
+	display: flex;flex-direction: column;justify-content: center;
+	}
+}
+
+.favoritos--padding {
+	padding-top:$padding;
+	padding-bottom:$padding;
+}
+
+.favoritos__carousel--padding{
+	padding-top:$padding;
+	padding-bottom:$padding;
+}
+
+.aromaterapia__video {
+	display: flex;
+	justify-content: center;
+}

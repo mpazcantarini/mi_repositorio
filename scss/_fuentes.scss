@@ -1,0 +1,162 @@
+$principal:'Nunito', sans-serif;
+$secundaria:'Raleway', sans-serif;
+$h1Desktop:70px;
+$h1Mobile:50px;
+$h2Desktop:50px;
+$h2Mobile:30px;
+
+.inicio__titulo--fuente{
+	font-family:$principal;
+	font-weight: bold;
+	font-size:$h1Desktop;
+	@media only screen and (max-width:767px){font-size:$h1Mobile;}
+}
+
+.inicio__subtitulo--fuente {
+	font-family:$secundaria;
+	font-weight: bold;
+	font-size:$h2Desktop;
+	@media only screen and (max-width:767px){font-size:$h2Mobile;}
+}
+
+.frase--fuente {
+	font-family:$principal;
+	font-weight: bold;
+	font-size:$h2Mobile;
+}
+
+.subtitulo--fuente {
+	font-family:$secundaria;
+	font-size: 45px;
+	text-align: left;
+}
+
+.nosotros__texto--fuente{
+	font-family:$principal;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px; 
+	text-align: justify; 
+	line-height: 60px
+}
+
+.staff__nombre--fuente{
+	font-family:$principal;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align:center;
+}
+
+.staff__texto--fuente {
+	font-family:$principal;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px; 
+	line-height: 30px;
+}
+
+.cosmeticanatural__texto--fuente{
+	font-family:$principal;
+	text-align: center;
+	font-weight: bold;
+	@media only screen and (min-width: 1024px){
+	font-size: 25px; text-align: justify; line-height: 60px
+	}
+	@media only screen and (max-width: 767px){
+	font-size: 20px; text-align: justify;}
+	}
+
+.favoritos__texto--fuente {
+	font-family:$principal;
+	text-align: center;
+	font-weight: bold;
+	@media only screen and (min-width: 1024px){
+	font-size: 25px; text-align: justify; line-height: 60px
+	}
+	@media only screen and (max-width: 767px){
+	font-size: 20px; text-align: justify;
+}
+
+.footer__texto--fuente h3 {
+	font-family:$principal;
+	text-decoration: none;
+	@media only screen and (min-width: 1024px){
+	text-align: center;
+	font-size: 25px;
+	}
+	@media only screen and (max-width: 767px){
+	text-align: left;
+	font-size: 20px;
+	}
+}
+
+.footer__texto--fuente h3 a{
+	font-family:$principal;
+	text-decoration:none;}}
+
+.aromaterapia__titulo--fuente {
+	font-family:$secundaria;
+	text-align: left;
+}
+
+.aromaterapia__subtitulo--fuente{
+	font-family:$principal;
+}
+
+$vista:desktop;
+
+@if $vista == desktop{
+	@media only screen and (min-width:1024px){
+		.aromaterapia__titulo--fuente {font-size:45px;}
+		.aromaterapia__subtitulo--fuente {font-size:30px;}
+		.aromaterapia__texto--fuente {font-size:25px;}
+		}
+	} @else if $vista == mobile {
+	@media only screen and (max-width:767px){
+		.aromaterapia__titulo--fuente {font-size:30px;}
+		.aromaterapia__subtitulo--fuente {font-size:25px;}
+		.aromaterapia__texto--fuente {font-size:20px;}
+		}
+	}
+	@else{
+		.aromaterapia__titulo--fuente {font-size:35px;}
+		.aromaterapia__subtitulo--fuente {font-size:25px;}
+		.aromaterapia__texto--fuente {font-size:25px;}
+	
+}
+
+$vista:mobile;
+
+@if $vista == desktop{
+	@media only screen and (min-width:1024px){
+		.aromaterapia__titulo--fuente {font-size:45px;}
+		.aromaterapia__subtitulo--fuente {font-size:30px;}
+		.aromaterapia__texto--fuente {font-size:25px;}
+		}
+	} @else if $vista == mobile {
+	@media only screen and (max-width:767px){
+		.aromaterapia__titulo--fuente {font-size:30px;}
+		.aromaterapia__subtitulo--fuente {font-size:25px;}
+		.aromaterapia__texto--fuente {font-size:20px;}
+		}
+	}
+	@else{
+		.aromaterapia__titulo--fuente {font-size:35px;}
+		.aromaterapia__subtitulo--fuente {font-size:25px;}
+		.aromaterapia__texto--fuente {font-size:25px;}
+	
+}
+
+
+/*map-get*/
+$estilos: (
+	fuente: $principal,
+	justificado: justify,
+);
+
+.aromaterapia__texto--fuente {
+	font-family: map-get($estilos, fuente);
+	text-align: map-get($estilos, justificado);
+	font-weight: bold;
+}
