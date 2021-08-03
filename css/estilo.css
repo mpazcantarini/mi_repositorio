@@ -7201,7 +7201,7 @@ body {
 .frase--color {
   color: #015249; }
 
-.nosotros__texto--color {
+.texto--color {
   color: #015249; }
 
 .staff__nombre--color {
@@ -7212,12 +7212,6 @@ body {
 
 .aromaterapia__subtitulo--color {
   color: #A3A847; }
-
-.cosmeticanatural__texto--color {
-  color: #015249; }
-
-.favoritos__texto--color {
-  color: #015249; }
 
 .footer--color {
   background-color: #9DBD9A; }
@@ -7334,14 +7328,6 @@ body {
   font-size: 45px;
   text-align: left; }
 
-.nosotros__texto--fuente {
-  font-family: "Nunito", sans-serif;
-  text-align: center;
-  font-weight: bold;
-  font-size: 25px;
-  text-align: justify;
-  line-height: 60px; }
-
 .staff__nombre--fuente {
   font-family: "Nunito", sans-serif;
   font-size: 30px;
@@ -7356,17 +7342,17 @@ body {
   font-size: 25px;
   line-height: 30px; }
 
-.cosmeticanatural__texto--fuente {
+.texto--fuente {
   font-family: "Nunito", sans-serif;
   text-align: center;
   font-weight: bold; }
   @media only screen and (min-width: 1024px) {
-    .cosmeticanatural__texto--fuente {
+    .texto--fuente {
       font-size: 25px;
       text-align: justify;
       line-height: 60px; } }
   @media only screen and (max-width: 767px) {
-    .cosmeticanatural__texto--fuente {
+    .texto--fuente {
       font-size: 20px;
       text-align: justify; } }
 
@@ -7382,20 +7368,6 @@ body {
   font-size: 25px;
   color: #373F27;
   font-weight: bold; }
-
-.favoritos__texto--fuente {
-  font-family: "Nunito", sans-serif;
-  text-align: center;
-  font-weight: bold; }
-  @media only screen and (min-width: 1024px) {
-    .favoritos__texto--fuente {
-      font-size: 25px;
-      text-align: justify;
-      line-height: 60px; } }
-  @media only screen and (max-width: 767px) {
-    .favoritos__texto--fuente {
-      font-size: 20px;
-      text-align: justify; } }
 
 .footer__texto--fuente {
   font-family: "Nunito", sans-serif;
