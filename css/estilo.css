@@ -7210,6 +7210,9 @@ body {
 .staff__texto--color {
   color: #015249; }
 
+.aromaterapia__subtitulo--color {
+  color: #A3A847; }
+
 .cosmeticanatural__texto--color {
   color: #015249; }
 
@@ -7224,15 +7227,6 @@ body {
 
 .footer__texto--color h3 a {
   color: #373F27; }
-
-.aromaterapia__subtitulo-1 {
-  color: #028476; }
-
-.aromaterapia__subtitulo-2 {
-  color: #02b7a3; }
-
-.aromaterapia__subtitulo-3 {
-  color: #03e9d0; }
 
 .inicio__titulo--align {
   text-align: center; }
@@ -7309,6 +7303,11 @@ body {
   display: flex;
   justify-content: center; }
 
+.contacto__redes--padding {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
 .inicio__titulo--fuente {
   font-family: "Nunito", sans-serif;
   font-weight: bold;
@@ -7371,6 +7370,19 @@ body {
       font-size: 20px;
       text-align: justify; } }
 
+.aromaterapia__subtitulo--fuente {
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center; }
+
+.contacto__redes--fuente {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  color: #373F27;
+  font-weight: bold; }
+
 .favoritos__texto--fuente {
   font-family: "Nunito", sans-serif;
   text-align: center;
@@ -7384,46 +7396,25 @@ body {
     .favoritos__texto--fuente {
       font-size: 20px;
       text-align: justify; } }
-  .favoritos__texto--fuente .footer__texto--fuente h3 {
-    font-family: "Nunito", sans-serif;
-    text-decoration: none; }
-    @media only screen and (min-width: 1024px) {
-      .favoritos__texto--fuente .footer__texto--fuente h3 {
-        text-align: center;
-        font-size: 25px; } }
-    @media only screen and (max-width: 767px) {
-      .favoritos__texto--fuente .footer__texto--fuente h3 {
-        text-align: left;
-        font-size: 20px; } }
-  .favoritos__texto--fuente .footer__texto--fuente h3 a {
-    font-family: "Nunito", sans-serif;
-    text-decoration: none; }
 
-.aromaterapia__titulo--fuente {
-  font-family: "Raleway", sans-serif;
-  text-align: left; }
+.footer__texto--fuente {
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  font-weight: 300; }
+  @media only screen and (min-width: 1024px) {
+    .footer__texto--fuente {
+      text-align: center; } }
+  @media only screen and (max-width: 767px) {
+    .footer__texto--fuente {
+      text-align: left; } }
 
-.aromaterapia__subtitulo--fuente {
-  font-family: "Nunito", sans-serif; }
+.footer__texto--fuente a {
+  text-decoration: none; }
 
 @media only screen and (min-width: 1024px) {
-  .aromaterapia__titulo--fuente {
-    font-size: 45px; }
-  .aromaterapia__subtitulo--fuente {
-    font-size: 30px; }
-  .aromaterapia__texto--fuente {
+  .footer__texto--fuente h3 {
     font-size: 25px; } }
 
 @media only screen and (max-width: 767px) {
-  .aromaterapia__titulo--fuente {
-    font-size: 30px; }
-  .aromaterapia__subtitulo--fuente {
-    font-size: 25px; }
-  .aromaterapia__texto--fuente {
+  .footer__texto--fuente h3 {
     font-size: 20px; } }
-
-/*map-get*/
-.aromaterapia__texto--fuente {
-  font-family: "Nunito", sans-serif;
-  text-align: justify;
-  font-weight: bold; }

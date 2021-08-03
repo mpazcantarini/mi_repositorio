@@ -67,6 +67,21 @@ $h2Mobile:30px;
 	font-size: 20px; text-align: justify;}
 	}
 
+.aromaterapia__subtitulo--fuente {
+	font-family:$principal;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align:center;
+}
+
+.contacto__redes--fuente {
+	font-family:$secundaria;
+	font-size: 25px;
+	color: #373F27;
+	font-weight: bold;
+}
+
 .favoritos__texto--fuente {
 	font-family:$principal;
 	text-align: center;
@@ -76,87 +91,30 @@ $h2Mobile:30px;
 	}
 	@media only screen and (max-width: 767px){
 	font-size: 20px; text-align: justify;
-}
+}}
 
-.footer__texto--fuente h3 {
+.footer__texto--fuente{
 	font-family:$principal;
 	text-decoration: none;
+	font-weight:300;
 	@media only screen and (min-width: 1024px){
 	text-align: center;
-	font-size: 25px;
 	}
 	@media only screen and (max-width: 767px){
-	text-align: left;
-	font-size: 20px;
+	text-align:left;
 	}
 }
 
-.footer__texto--fuente h3 a{
-	font-family:$principal;
-	text-decoration:none;}}
+.footer__texto--fuente a{
+	text-decoration: none; }
 
-.aromaterapia__titulo--fuente {
-	font-family:$secundaria;
-	text-align: left;
-}
-
-.aromaterapia__subtitulo--fuente{
-	font-family:$principal;
-}
-
-$vista:desktop;
-
-@if $vista == desktop{
+.footer__texto--fuente h3{
 	@media only screen and (min-width:1024px){
-		.aromaterapia__titulo--fuente {font-size:45px;}
-		.aromaterapia__subtitulo--fuente {font-size:30px;}
-		.aromaterapia__texto--fuente {font-size:25px;}
-		}
-	} @else if $vista == mobile {
-	@media only screen and (max-width:767px){
-		.aromaterapia__titulo--fuente {font-size:30px;}
-		.aromaterapia__subtitulo--fuente {font-size:25px;}
-		.aromaterapia__texto--fuente {font-size:20px;}
-		}
+	font-size:25px;
 	}
-	@else{
-		.aromaterapia__titulo--fuente {font-size:35px;}
-		.aromaterapia__subtitulo--fuente {font-size:25px;}
-		.aromaterapia__texto--fuente {font-size:25px;}
-	
-}
-
-$vista:mobile;
-
-@if $vista == desktop{
-	@media only screen and (min-width:1024px){
-		.aromaterapia__titulo--fuente {font-size:45px;}
-		.aromaterapia__subtitulo--fuente {font-size:30px;}
-		.aromaterapia__texto--fuente {font-size:25px;}
-		}
-	} @else if $vista == mobile {
 	@media only screen and (max-width:767px){
-		.aromaterapia__titulo--fuente {font-size:30px;}
-		.aromaterapia__subtitulo--fuente {font-size:25px;}
-		.aromaterapia__texto--fuente {font-size:20px;}
-		}
+	font-size:20px;
 	}
-	@else{
-		.aromaterapia__titulo--fuente {font-size:35px;}
-		.aromaterapia__subtitulo--fuente {font-size:25px;}
-		.aromaterapia__texto--fuente {font-size:25px;}
-	
 }
 
 
-/*map-get*/
-$estilos: (
-	fuente: $principal,
-	justificado: justify,
-);
-
-.aromaterapia__texto--fuente {
-	font-family: map-get($estilos, fuente);
-	text-align: map-get($estilos, justificado);
-	font-weight: bold;
-}

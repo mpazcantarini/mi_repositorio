@@ -4,7 +4,7 @@ $verdeFooter:#9DBD9A;
 $grisOscuro:#373F27;
 $verdeClaro:#A3A847;
 
-body {background-color: #FDF7EA;}
+body {background-color:#FDF7EA;}
 
 .inicio__titulo--color {color:$verdeOscuro;}
 
@@ -20,6 +20,8 @@ body {background-color: #FDF7EA;}
 
 .staff__texto--color {color:$verdeOscuro;}
 
+.aromaterapia__subtitulo--color {color:$verdeClaro;}
+
 .cosmeticanatural__texto--color {color:$verdeOscuro;}
 
 .favoritos__texto--color {color:$verdeOscuro;}
@@ -31,8 +33,3 @@ body {background-color: #FDF7EA;}
 .footer__texto--color h3 a {color:$grisOscuro;}
 
 
-@for $i from 1 through 3 {
-  .aromaterapia__subtitulo-#{$i} {
-    color: lighten($verdeOscuro, $i * 10%);
-  }
-}
