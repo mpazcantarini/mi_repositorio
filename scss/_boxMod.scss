@@ -1,5 +1,9 @@
 $padding:20px;
 
+.container-fluid {padding: 0;
+margin:0;
+overflow: hidden;}
+
 .inicio__titulo--align{
 	text-align:center;
 }
@@ -8,10 +12,9 @@ $padding:20px;
 	text-align:center;
 }
 
-.imagenes{
-	@media only screen and (min-width: 1024px){
-	display: flex;justify-content: space-around; 
-	}
+.inicio__imagenes img {
+	display: block;
+	margin:auto;
 }
 
 .inicio--padding{
@@ -43,6 +46,11 @@ $padding:20px;
 .footer--padding {
 	padding-top:$padding;
 	padding-bottom:$padding;
+
+}
+
+.footer h3 {
+	padding-left:$padding;
 }
 
 .subtitulo--padding {

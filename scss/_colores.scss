@@ -4,7 +4,12 @@ $verdeFooter:#9DBD9A;
 $grisOscuro:#373F27;
 $verdeClaro:#A3A847;
 
-body {background-color:#FDF7EA;}
+body {background-color: white;}
+
+.navbar a:hover{
+	border-bottom: solid 1px;
+	border-color: white;
+}
 
 .inicio__titulo--color {color:$verdeOscuro;}
 
@@ -22,10 +27,15 @@ body {background-color:#FDF7EA;}
 
 .aromaterapia__subtitulo--color {color:$verdeClaro;}
 
-.footer--color {background-color:$verdeFooter;}
+.footer {
+	border-top: solid 2px;
+	border-color: black;
+}
 
-.footer__texto--color h3 {color:$grisOscuro;}
+.footer--color {background-color:white;}
 
-.footer__texto--color h3 a {color:$grisOscuro;}
+.footer__texto--color h3 {color:black;}
+
+.footer__texto--color h3 a {color:black;}
 
 

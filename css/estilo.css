@@ -7187,7 +7187,11 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  background-color: #FDF7EA; }
+  background-color: white; }
+
+.navbar a:hover {
+  border-bottom: solid 1px;
+  border-color: white; }
 
 .inicio__titulo--color {
   color: #015249; }
@@ -7213,14 +7217,28 @@ body {
 .aromaterapia__subtitulo--color {
   color: #A3A847; }
 
+.footer {
+  border-top: solid 2px;
+  border-color: black; }
+
 .footer--color {
-  background-color: #9DBD9A; }
+  background-color: white; }
 
 .footer__texto--color h3 {
-  color: #373F27; }
+  color: black; }
 
 .footer__texto--color h3 a {
-  color: #373F27; }
+  color: black; }
+
+
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  padding: 0;
+  margin: 0;
+  overflow: hidden; }
 
 .inicio__titulo--align {
   text-align: center; }
@@ -7228,10 +7246,9 @@ body {
 .inicio__subtitulo--align {
   text-align: center; }
 
-@media only screen and (min-width: 1024px) {
-  .imagenes {
-    display: flex;
-    justify-content: space-around; } }
+.inicio__imagenes img {
+  display: block;
+  margin: auto; }
 
 .inicio--padding {
   padding-top: 20px;
@@ -7261,6 +7278,9 @@ body {
 .footer--padding {
   padding-top: 20px;
   padding-bottom: 20px; }
+
+.footer h3 {
+  padding-left: 20px; }
 
 .subtitulo--padding {
   padding-top: 20px;
@@ -7317,6 +7337,15 @@ body {
   @media only screen and (max-width: 767px) {
     .inicio__subtitulo--fuente {
       font-size: 30px; } }
+
+.inicio__imagenes__texto h2 {
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center; }
+  @media only screen and (max-width: 767px) {
+    .inicio__imagenes__texto h2 {
+      font-size: 50px; } }
 
 .frase--fuente {
   font-family: "Nunito", sans-serif;

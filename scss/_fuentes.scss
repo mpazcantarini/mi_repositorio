@@ -19,6 +19,14 @@ $h2Mobile:30px;
 	@media only screen and (max-width:767px){font-size:$h2Mobile;}
 }
 
+.inicio__imagenes__texto h2 {
+	font-family: 'Patrick Hand', cursive;
+	font-weight: 400;
+	font-size: 60px;
+	text-align: center;
+	@media only screen and (max-width:767px){font-size:$h1Mobile;}
+}
+
 .frase--fuente {
 	font-family:$principal;
 	font-weight: bold;
