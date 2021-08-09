@@ -7199,6 +7199,15 @@ body {
 .inicio__subtitulo--color {
   color: #1E392A; }
 
+.productos {
+  background-color: black; }
+
+.inicio__productos__texto--izquierda h2 {
+  color: white; }
+
+.inicio__productos__texto--derecha h2 {
+  color: white; }
+
 .subtitulo--color {
   color: #1E392A; }
 
@@ -7208,11 +7217,17 @@ body {
 .texto--color {
   color: #015249; }
 
+.staff {
+  background-color: black; }
+
+.staff .subtitulo--color {
+  color: white; }
+
 .staff__nombre--color {
   color: #A3A847; }
 
 .staff__texto--color {
-  color: #015249; }
+  color: white; }
 
 .aromaterapia__subtitulo--color {
   color: #A3A847; }
@@ -7261,6 +7276,10 @@ body {
   padding-top: 20px;
   padding-bottom: 20px; }
 
+.inicio__productos__imagenes {
+  display: flex;
+  justify-content: space-around; }
+
 .staff--flex img {
   display: block;
   margin: auto; }
@@ -7283,16 +7302,18 @@ body {
   padding-left: 20px; }
 
 .subtitulo--padding {
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding: 20px; }
 
 .nosotros--padding {
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding: 20px; }
 
 .nosotros__imagen--padding {
   padding-top: 20px;
   padding-bottom: 20px; }
+
+.nosotros .row {
+  margin-right: 10px;
+  margin-left: 10px; }
 
 @media only screen and (min-width: 1024px) {
   .cosmeticanatural__carousel--position {
@@ -7357,9 +7378,27 @@ body {
   font-size: 45px;
   text-align: left; }
 
+.inicio__productos__texto--izquierda h2 {
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: right; }
+  @media only screen and (max-width: 767px) {
+    .inicio__productos__texto--izquierda h2 {
+      font-size: 50px; } }
+
+.inicio__productos__texto--derecha h2 {
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: left; }
+  @media only screen and (max-width: 767px) {
+    .inicio__productos__texto--derecha h2 {
+      font-size: 50px; } }
+
 .staff__nombre--fuente {
-  font-family: "Nunito", sans-serif;
-  font-size: 30px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center; }
@@ -7368,8 +7407,7 @@ body {
   font-family: "Nunito", sans-serif;
   text-align: center;
   font-weight: bold;
-  font-size: 25px;
-  line-height: 30px; }
+  font-size: 20px; }
 
 .texto--fuente {
   font-family: "Nunito", sans-serif;
@@ -7377,12 +7415,12 @@ body {
   font-weight: bold; }
   @media only screen and (min-width: 1024px) {
     .texto--fuente {
-      font-size: 25px;
+      font-size: 20px;
       text-align: justify;
-      line-height: 60px; } }
+      line-height: 50px; } }
   @media only screen and (max-width: 767px) {
     .texto--fuente {
-      font-size: 20px;
+      font-size: 17px;
       text-align: justify; } }
 
 .aromaterapia__subtitulo--fuente {

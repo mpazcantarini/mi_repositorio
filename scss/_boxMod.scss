@@ -31,6 +31,11 @@ overflow: hidden;}
 	padding-bottom:$padding;
 }
 
+.inicio__productos__imagenes {
+	display:flex;
+	justify-content:space-around;
+}
+
 .staff--flex img {
 	display: block;
 	margin: auto;
@@ -54,13 +59,12 @@ overflow: hidden;}
 }
 
 .subtitulo--padding {
-	padding-top:$padding;
-	padding-bottom:$padding;
+	padding:$padding;
+
 }
 
 .nosotros--padding{
-	padding-top:$padding;
-	padding-bottom:$padding;
+	padding:$padding;
 }
 
 .nosotros__imagen--padding {

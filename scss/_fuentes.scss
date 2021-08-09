@@ -39,6 +39,21 @@ $h2Mobile:30px;
 	text-align: left;
 }
 
+.inicio__productos__texto--izquierda h2 {
+	font-family: 'Patrick Hand', cursive;
+	font-weight: 400;
+	font-size: 60px;
+	text-align: right;
+	@media only screen and (max-width:767px){font-size:$h1Mobile;}
+}
+
+.inicio__productos__texto--derecha h2 {
+	font-family: 'Patrick Hand', cursive;
+	font-weight: 400;
+	font-size: 60px;
+	text-align: left;
+	@media only screen and (max-width:767px){font-size:$h1Mobile;}
+}
 
 .staff__nombre--fuente{
 	font-family:$principal;
