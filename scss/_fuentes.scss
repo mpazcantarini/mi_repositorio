@@ -1,5 +1,6 @@
 $principal:'Nunito', sans-serif;
 $secundaria:'Raleway', sans-serif;
+$tercera: 'Patrick Hand', cursive;
 $h1Desktop:70px;
 $h1Mobile:50px;
 $h2Desktop:50px;
@@ -20,7 +21,7 @@ $h2Mobile:30px;
 }
 
 .inicio__imagenes__texto h2 {
-	font-family: 'Patrick Hand', cursive;
+	font-family: $tercera;
 	font-weight: 400;
 	font-size: 60px;
 	text-align: center;
@@ -41,7 +42,7 @@ $h2Mobile:30px;
 }
 
 .inicio__productos__texto--izquierda h2 {
-	font-family: 'Patrick Hand', cursive;
+	font-family: $tercera;
 	font-weight: 400;
 	font-size: 60px;
 	text-align: right;
@@ -49,7 +50,7 @@ $h2Mobile:30px;
 }
 
 .inicio__productos__texto--derecha h2 {
-	font-family: 'Patrick Hand', cursive;
+	font-family: $tercera;
 	font-weight: 400;
 	font-size: 60px;
 	text-align: left;
@@ -57,7 +58,7 @@ $h2Mobile:30px;
 }
 
 .staff__nombre--fuente{
-	font-family:'Patrick Hand', cursive;
+	font-family:$tercera;
 	font-size: 40px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -83,7 +84,7 @@ $h2Mobile:30px;
 	}
 
 .aromaterapia__subtitulo--fuente {
-	font-family:'Patrick Hand', cursive;
+	font-family:$tercera;
 	font-size: 40px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -93,7 +94,6 @@ $h2Mobile:30px;
 .contacto__redes--fuente {
 	font-family:$secundaria;
 	font-size: 25px;
-	color: #373F27;
 	font-weight: bold;
 }
 
