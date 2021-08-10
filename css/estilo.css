@@ -7252,6 +7252,10 @@ body {
   border-right: solid;
   border-color: white; }
 
+.contacto__redes--color {
+  border-left: solid;
+  border-color: black; }
+
 .footer {
   border-top: solid 2px;
   border-color: black; }
