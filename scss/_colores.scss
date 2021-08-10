@@ -31,10 +31,29 @@ body {background-color: white;}
 
 .texto--color {color:$verdeOscuro;}
 
+.staff {
+	background-color:black;
+}
+
+.staff .subtitulo--color {
+	color:white;
+}
+
 .staff__nombre--color {color:$verdeClaro;}
 
-.staff__texto--color {color:$verdeOscuro;}
+.staff__texto--color {color:white;}
 
+.favoritos--fondo {
+	background-color:black;
+}
+
+.favoritos__subtitulo--color {
+	color:white;
+}
+
+.favoritos__texto--color {
+	color:white;
+}
 .aromaterapia__subtitulo--color {color:$verdeClaro;}
 
 .footer {

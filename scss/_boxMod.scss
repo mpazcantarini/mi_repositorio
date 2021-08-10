@@ -64,7 +64,7 @@ overflow: hidden;}
 }
 
 .nosotros--padding{
-	padding:$padding;
+ padding:$padding;
 }
 
 .nosotros__imagen--padding {
@@ -72,7 +72,18 @@ overflow: hidden;}
 	padding-bottom:$padding;
 }
 
+.nosotros .row {
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.cosmeticanatural {
+	margin-right:10px;
+	margin-left:10px;
+}
+
 .cosmeticanatural__carousel--position {
+	margin-bottom:20px;
 	@media only screen and (min-width: 1024px){
 	display: flex;justify-content: center;}
 	
@@ -84,6 +95,10 @@ overflow: hidden;}
 	}
 }
 
+.favoritos {
+	margin-right:10px;
+	margin-left:10px;
+}
 .favoritos--padding {
 	padding-top:$padding;
 	padding-bottom:$padding;

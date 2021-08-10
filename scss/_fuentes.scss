@@ -56,8 +56,8 @@ $h2Mobile:30px;
 }
 
 .staff__nombre--fuente{
-	font-family:$principal;
-	font-size: 30px;
+	font-family:'Patrick Hand', cursive;
+	font-size: 40px;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align:center;
@@ -67,8 +67,7 @@ $h2Mobile:30px;
 	font-family:$principal;
 	text-align: center;
 	font-weight: bold;
-	font-size: 25px; 
-	line-height: 30px;
+	font-size: 20px; 
 }
 
 .texto--fuente{
@@ -76,10 +75,10 @@ $h2Mobile:30px;
 	text-align: center;
 	font-weight: bold;
 	@media only screen and (min-width: 1024px){
-	font-size: 25px; text-align: justify; line-height: 60px
+	font-size: 20px; text-align: justify; line-height:50px;
 	}
 	@media only screen and (max-width: 767px){
-	font-size: 20px; text-align: justify;}
+	font-size: 17px; text-align: justify;}
 	}
 
 .aromaterapia__subtitulo--fuente {

@@ -15,7 +15,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"><!--font-family: 'Raleway', sans-serif;--> 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+    <!-- CSS AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--link CSS-->
     <link rel="stylesheet" href="../css/estilo.css">
 
@@ -55,11 +56,11 @@
       </div>    
     <!--inicio contenido-->
     <div class="row subtitulo">
-    <div class="col-lg-12 col-xs-12 subtitulo--padding">
+    <div class="col-lg-12 col-xs-12 subtitulo--padding" data-aos="fade-right">
       <h2 class="subtitulo--color subtitulo--fuente">Cosmética Natural</h2>
     </div>
   </div>  
-    <div class="row cosmeticanatural">
+    <div class="row cosmeticanatural" data-aos="fade-up">
       <div class="col-lg-8 col-xs-12 cosmeticanatural__carousel--position ">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -88,14 +89,17 @@
         <p class="texto--fuente texto--color">Elaboramos productos artesanales que contribuyen al cuidado del organismo, nada mejor que ingredientes provenientes de la naturaleza para proteger nuestra piel y cabello de los sulfatos y parabenos que resultan contaminantes</p>
       </div>
     </div>
+    </div>
+    <div class="container-fluid">
+    <section class="favoritos--fondo">
     <div class="row subtitulo">
-      <div class="col-lg-12 col-xs-12 subtitulo--padding ">
-        <h2 class="subtitulo--color subtitulo--fuente">Los Favoritos</h2>
+      <div class="col-lg-12 col-xs-12 subtitulo--padding " data-aos="fade-right">
+        <h2 class="favoritos__subtitulo--color subtitulo--fuente">Los Favoritos</h2>
       </div>
     </div>
-    <div class="row favoritos">
+    <div class="row favoritos" data-aos="fade-up">
       <div class="col-lg-6 col-xs-12 favoritos--padding">
-        <p class="texto--fuente texto--color">Shampoo sólido de Coco y Karité para cabellos secos y/o rizados: Nutre el cabello con manteca de Karité, aporta brillo con el aceite de Argán, y además de aromatizar, regula la oleosidad con la ayuda del aceite esencial de Geranio <br>Shampoo sólido de Hibiscus y Rosas para cabellos normales: El hibiscus actúa como tónico fortalecedor, detiene la caída del cabello y otorga volumen. El aceite de coco protege, nutre y revitaliza y el aceite esencial de rosas brinda propiedades relajantes </p>
+        <p class="texto--fuente favoritos__texto--color">Shampoo sólido de Coco y Karité para cabellos secos y/o rizados: Nutre el cabello con manteca de Karité, aporta brillo con el aceite de Argán, y además de aromatizar, regula la oleosidad con la ayuda del aceite esencial de Geranio <br>Shampoo sólido de Hibiscus y Rosas para cabellos normales: El hibiscus actúa como tónico fortalecedor, detiene la caída del cabello y otorga volumen. El aceite de coco protege, nutre y revitaliza y el aceite esencial de rosas brinda propiedades relajantes </p>
       </div>
       <div class="col-lg-6 col-xs-12 favoritos__carousel--padding">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -122,6 +126,7 @@
         </div>
       </div>
     </div>
+    </section>
     <!--cierrre contenido-->
    <!--inicio footer-->
       <footer class="footer">
@@ -139,10 +144,15 @@
         </div>
       </footer>
   </div>
+  </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+   AOS.init();
+  </script>
 </body>
 </html>

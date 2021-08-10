@@ -13,9 +13,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"><!--font-family: 'Raleway', sans-serif;--> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet"><!--font-family: 'Patrick Hand', cursive;-->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+    <!-- CSS AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--link CSS-->
     <link rel="stylesheet" href="../css/estilo.css">
 
@@ -54,29 +58,29 @@
         </div>
       </div>    
     <!--inicio contenido-->
-    <div class="row subtitulo">
+    <div class="row subtitulo" data-aos="fade-right">
       <div class="col-lg-12 col-xs-12 subtitulo--padding">
         <h2 class="subtitulo--color subtitulo--fuente">Nosotros</h2>
       </div>
     </div>
     <section class="nosotros">
       <div class="row">
-        <div class="col-lg-6 col-xs-12 nosotros--padding ">
+        <div class="col-lg-6 col-xs-12 nosotros--padding " data-aos="fade-up">
           <p class="texto--color texto--fuente">Creamos Cataleya a fines de 2019 con la intención de compartirles estos productos que a nosotras tan bien nos hacían. Todo empieza con regalitos a amigos y familiares, mejorar fórmulas y perfeccionar productos hasta que finalmente nos sentimos listas para el siguiente paso. <br>Cien por ciento familiar y cien por ciento artesanal, somos madre e hijas detrás de este pequeño negocio al cual le dedicamos nuestro tiempo y esfuerzo para ser cada día mejores </p>  
         </div>
-        <div class="col-lg-6 col-xs-12 nosotros__imagen--padding">
-          <img src="../assets/img/jabones.jpg" alt="jabones" height="500px" width="700px" class="img-fluid">
+        <div class="col-lg-6 col-xs-12 nosotros__imagen--padding" data-aos="zoom-in-up">
+          <img src="../assets/img/jabones.jpg" alt="jabones"  class="img-fluid">
         </div>
       </div>
     </section>
-      <div class="row subtitulo">
+    <section class="staff">
+      <div class="row subtitulo" data-aos="fade-right">
         <div class="col-lg-12 col-xs-12 subtitulo--padding">
            <h2 class="subtitulo--color subtitulo--fuente">Staff</h2>
         </div>
       </div>
-      <section class="staff">
-        <div class="row">
-          <div class="col-lg-4 col-xs-12 staff--flex">
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-4 col-xs-12 staff--flex" >
             <h3 class="staff__nombre--color staff__nombre--fuente">Andrea</h3>
             <img src="../assets/img/persona1.jfif" alt="persona1" height="300" width="300">
             <p class="staff__texto--color staff__texto--fuente">Creación de nuevos productos y elaboración <br> A cargo de Ventas por Mayor</p>
@@ -115,5 +119,9 @@
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+   AOS.init();
+  </script>
 </body>
 </html>

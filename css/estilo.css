@@ -7229,6 +7229,15 @@ body {
 .staff__texto--color {
   color: white; }
 
+.favoritos--fondo {
+  background-color: black; }
+
+.favoritos__subtitulo--color {
+  color: white; }
+
+.favoritos__texto--color {
+  color: white; }
+
 .aromaterapia__subtitulo--color {
   color: #A3A847; }
 
@@ -7315,16 +7324,26 @@ body {
   margin-right: 10px;
   margin-left: 10px; }
 
-@media only screen and (min-width: 1024px) {
-  .cosmeticanatural__carousel--position {
-    display: flex;
-    justify-content: center; } }
+.cosmeticanatural {
+  margin-right: 10px;
+  margin-left: 10px; }
+
+.cosmeticanatural__carousel--position {
+  margin-bottom: 20px; }
+  @media only screen and (min-width: 1024px) {
+    .cosmeticanatural__carousel--position {
+      display: flex;
+      justify-content: center; } }
 
 @media only screen and (min-width: 1024px) {
   .cosmeticanatural__texto--position {
     display: flex;
     flex-direction: column;
     justify-content: center; } }
+
+.favoritos {
+  margin-right: 10px;
+  margin-left: 10px; }
 
 .favoritos--padding {
   padding-top: 20px;
