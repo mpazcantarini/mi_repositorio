@@ -3,8 +3,13 @@ $secundaria:'Raleway', sans-serif;
 $tercera: 'Patrick Hand', cursive;
 $h1Desktop:70px;
 $h1Mobile:50px;
-$h2Desktop:50px;
 $h2Mobile:30px;
+
+@mixin mobile-font{
+	@media only screen and (max-width:767px){
+	font-size:$h2Mobile;
+	}
+}
 
 .inicio__titulo--fuente{
 	font-family:$principal;
@@ -16,8 +21,8 @@ $h2Mobile:30px;
 .inicio__subtitulo--fuente {
 	font-family:$secundaria;
 	font-weight: bold;
-	font-size:$h2Desktop;
-	@media only screen and (max-width:767px){font-size:$h2Mobile;}
+	font-size:$h1Mobile;
+	@include mobile-font;
 }
 
 .inicio__imagenes__texto h2 {
@@ -25,14 +30,14 @@ $h2Mobile:30px;
 	font-weight: 400;
 	font-size: 60px;
 	text-align: center;
-	@media only screen and (max-width:767px){font-size:$h2Mobile;}
+	@include mobile-font;
 }
 
 .frase--fuente {
 	font-family:$principal;
 	font-weight: bold;
 	font-size:$h2Mobile;
-	@media only screen and (max-width:767px){font-size:20px;}
+	@include mobile-font;
 }
 
 .subtitulo--fuente {
@@ -46,7 +51,7 @@ $h2Mobile:30px;
 	font-weight: 400;
 	font-size: 60px;
 	text-align: right;
-	@media only screen and (max-width:767px){font-size:$h2Mobile;}
+	@include mobile-font;
 }
 
 .inicio__productos__texto--derecha h2 {
@@ -54,7 +59,7 @@ $h2Mobile:30px;
 	font-weight: 400;
 	font-size: 60px;
 	text-align: left;
-	@media only screen and (max-width:767px){font-size:$h2Mobile;}
+	@include mobile-font;
 }
 
 .staff__nombre--fuente{
@@ -69,7 +74,7 @@ $h2Mobile:30px;
 	font-family:$principal;
 	text-align: center;
 	font-weight: bold;
-	font-size: 20px; 
+	font-size: $h2Mobile; 
 }
 
 .texto--fuente{
