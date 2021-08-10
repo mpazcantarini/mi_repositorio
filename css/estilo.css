@@ -7241,6 +7241,17 @@ body {
 .aromaterapia__subtitulo--color {
   color: #A3A847; }
 
+.aromaterapia__fondo--color {
+  background-color: black; }
+
+.aromaterapia .texto--color {
+  color: white; }
+
+.aromaterapia--margin {
+  border-left: solid;
+  border-right: solid;
+  border-color: white; }
+
 .footer {
   border-top: solid 2px;
   border-color: black; }
@@ -7353,6 +7364,10 @@ body {
   padding-top: 20px;
   padding-bottom: 20px; }
 
+.aromaterapia {
+  margin-right: 10px;
+  margin-left: 10px; }
+
 .aromaterapia__video {
   display: flex;
   justify-content: center; }
@@ -7443,8 +7458,8 @@ body {
       text-align: justify; } }
 
 .aromaterapia__subtitulo--fuente {
-  font-family: "Nunito", sans-serif;
-  font-size: 30px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center; }

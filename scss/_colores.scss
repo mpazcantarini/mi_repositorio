@@ -56,6 +56,20 @@ body {background-color: white;}
 }
 .aromaterapia__subtitulo--color {color:$verdeClaro;}
 
+.aromaterapia__fondo--color {
+	background-color: black;
+}
+
+.aromaterapia .texto--color {
+	color:white;
+}
+
+.aromaterapia--margin {
+	border-left:solid;
+	border-right:solid;
+	border-color:white;
+}
+
 .footer {
 	border-top: solid 2px;
 	border-color: black;
