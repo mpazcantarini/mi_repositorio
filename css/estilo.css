@@ -7251,6 +7251,13 @@ body {
   border-left: solid;
   border-right: solid;
   border-color: white; }
+  @media only screen and (max-width: 767px) {
+    .aromaterapia--margin {
+      border-left: none;
+      border-right: none;
+      border-top: solid;
+      border-bottom: solid;
+      border-color: white; } }
 
 .contacto__redes--color {
   border-left: solid;
@@ -7324,6 +7331,11 @@ body {
 
 .footer h3 {
   padding-left: 20px; }
+  @media only screen and (max-width: 767px) {
+    .footer h3 {
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px; } }
 
 .subtitulo--padding {
   padding: 20px; }
@@ -7404,12 +7416,15 @@ body {
   text-align: center; }
   @media only screen and (max-width: 767px) {
     .inicio__imagenes__texto h2 {
-      font-size: 50px; } }
+      font-size: 30px; } }
 
 .frase--fuente {
   font-family: "Nunito", sans-serif;
   font-weight: bold;
   font-size: 30px; }
+  @media only screen and (max-width: 767px) {
+    .frase--fuente {
+      font-size: 20px; } }
 
 .subtitulo--fuente {
   font-family: "Raleway", sans-serif;
@@ -7423,7 +7438,7 @@ body {
   text-align: right; }
   @media only screen and (max-width: 767px) {
     .inicio__productos__texto--izquierda h2 {
-      font-size: 50px; } }
+      font-size: 30px; } }
 
 .inicio__productos__texto--derecha h2 {
   font-family: 'Patrick Hand', cursive;
@@ -7432,7 +7447,7 @@ body {
   text-align: left; }
   @media only screen and (max-width: 767px) {
     .inicio__productos__texto--derecha h2 {
-      font-size: 50px; } }
+      font-size: 30px; } }
 
 .staff__nombre--fuente {
   font-family: 'Patrick Hand', cursive;

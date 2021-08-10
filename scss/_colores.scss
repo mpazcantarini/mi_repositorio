@@ -68,11 +68,19 @@ body {background-color: white;}
 	border-left:solid;
 	border-right:solid;
 	border-color:white;
+	@media only screen and (max-width: 767px){
+	border-left:none;
+	border-right:none;
+	border-top:solid;
+	border-bottom:solid;
+	border-color:white;
+	}
 }
 
 .contacto__redes--color {
 	border-left:solid;
 	border-color:black;
+	
 }
 
 .footer {

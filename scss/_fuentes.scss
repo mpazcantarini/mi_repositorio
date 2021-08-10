@@ -24,13 +24,14 @@ $h2Mobile:30px;
 	font-weight: 400;
 	font-size: 60px;
 	text-align: center;
-	@media only screen and (max-width:767px){font-size:$h1Mobile;}
+	@media only screen and (max-width:767px){font-size:$h2Mobile;}
 }
 
 .frase--fuente {
 	font-family:$principal;
 	font-weight: bold;
 	font-size:$h2Mobile;
+	@media only screen and (max-width:767px){font-size:20px;}
 }
 
 .subtitulo--fuente {
@@ -44,7 +45,7 @@ $h2Mobile:30px;
 	font-weight: 400;
 	font-size: 60px;
 	text-align: right;
-	@media only screen and (max-width:767px){font-size:$h1Mobile;}
+	@media only screen and (max-width:767px){font-size:$h2Mobile;}
 }
 
 .inicio__productos__texto--derecha h2 {
@@ -52,7 +53,7 @@ $h2Mobile:30px;
 	font-weight: 400;
 	font-size: 60px;
 	text-align: left;
-	@media only screen and (max-width:767px){font-size:$h1Mobile;}
+	@media only screen and (max-width:767px){font-size:$h2Mobile;}
 }
 
 .staff__nombre--fuente{

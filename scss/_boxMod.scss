@@ -56,6 +56,11 @@ overflow: hidden;}
 
 .footer h3 {
 	padding-left:$padding;
+	@media only screen and (max-width: 767px){
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	}
 }
 
 .subtitulo--padding {
