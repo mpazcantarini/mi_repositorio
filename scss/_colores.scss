@@ -1,8 +1,10 @@
 $verdeOscuro:#015249;
 $marronOscuro:#1E392A;
-$verdeFooter:#9DBD9A;
-$grisOscuro:#373F27;
 $verdeClaro:#A3A847;
+
+@mixin b-black{
+	background-color:black;
+}
 
 body {background-color: white;}
 
@@ -16,7 +18,7 @@ body {background-color: white;}
 .inicio__subtitulo--color {color:$marronOscuro;}
 
 .productos {
-	background-color:black;
+	@include b-black;
 }
 
 .inicio__productos__texto--izquierda h2 {
@@ -32,7 +34,7 @@ body {background-color: white;}
 .texto--color {color:$verdeOscuro;}
 
 .staff {
-	background-color:black;
+	@include b-black;
 }
 
 .staff .subtitulo--color {
@@ -44,7 +46,7 @@ body {background-color: white;}
 .staff__texto--color {color:white;}
 
 .favoritos--fondo {
-	background-color:black;
+	@include b-black;
 }
 
 .favoritos__subtitulo--color {
@@ -57,7 +59,7 @@ body {background-color: white;}
 .aromaterapia__subtitulo--color {color:$verdeClaro;}
 
 .aromaterapia__fondo--color {
-	background-color: black;
+	@include b-black;
 }
 
 .aromaterapia .texto--color {
@@ -80,7 +82,7 @@ body {background-color: white;}
 .contacto__redes--color {
 	border-left:solid;
 	border-color:black;
-	
+
 }
 
 .footer {
