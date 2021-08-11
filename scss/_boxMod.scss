@@ -1,5 +1,15 @@
 $padding:20px;
 
+@mixin margin {
+	margin-right:10px;
+	margin-left:10px;
+}
+
+@mixin padding{
+	padding-top:$padding;
+	padding-bottom:$padding;
+}
+
 .container-fluid {padding: 0;
 margin:0;
 overflow: hidden;}
@@ -18,8 +28,7 @@ overflow: hidden;}
 }
 
 .inicio--padding{
-	padding-top:$padding;
-	padding-bottom:$padding;
+	@include padding;
 }
 
 .frase--align {
@@ -27,8 +36,7 @@ overflow: hidden;}
 }
 
 .frase--padding{
-	padding-top:$padding;
-	padding-bottom:$padding;
+	@include padding;
 }
 
 .inicio__productos__imagenes {
@@ -49,8 +57,7 @@ overflow: hidden;}
 }
 
 .footer--padding {
-	padding-top:$padding;
-	padding-bottom:$padding;
+	@include padding;
 
 }
 
@@ -73,18 +80,15 @@ overflow: hidden;}
 }
 
 .nosotros__imagen--padding {
-	padding-top:$padding;
-	padding-bottom:$padding;
+	@include padding;
 }
 
 .nosotros .row {
-	margin-right:10px;
-	margin-left:10px;
+	@include margin;
 }
 
 .cosmeticanatural {
-	margin-right:10px;
-	margin-left:10px;
+	@include margin;
 }
 
 .cosmeticanatural__carousel--position {
@@ -101,13 +105,11 @@ overflow: hidden;}
 }
 
 .favoritos {
-	margin-right:10px;
-	margin-left:10px;
+	@include margin;
 }
 
 .favoritos--padding {
-	padding-top:$padding;
-	padding-bottom:$padding;
+	@include padding;
 }
 
 .favoritos__carousel--padding{
@@ -116,8 +118,7 @@ overflow: hidden;}
 }
 
 .aromaterapia {
-	margin-right:10px;
-	margin-left:10px;
+	@include margin;
 }
 
 
