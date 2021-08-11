@@ -7429,7 +7429,7 @@ body {
   font-size: 30px; }
   @media only screen and (max-width: 767px) {
     .frase--fuente {
-      font-size: 30px; } }
+      font-size: 20px; } }
 
 .subtitulo--fuente {
   font-family: "Raleway", sans-serif;
@@ -7465,7 +7465,10 @@ body {
   font-family: "Nunito", sans-serif;
   text-align: center;
   font-weight: bold;
-  font-size: 30px; }
+  font-size: 25px; }
+  @media only screen and (max-width: 767px) {
+    .staff__texto--fuente {
+      font-size: 17px; } }
 
 .texto--fuente {
   font-family: "Nunito", sans-serif;

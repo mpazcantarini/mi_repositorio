@@ -37,7 +37,8 @@ $h2Mobile:30px;
 	font-family:$principal;
 	font-weight: bold;
 	font-size:$h2Mobile;
-	@include mobile-font;
+	@media only screen and (max-width: 767px){
+	font-size: 20px; }
 }
 
 .subtitulo--fuente {
@@ -74,7 +75,10 @@ $h2Mobile:30px;
 	font-family:$principal;
 	text-align: center;
 	font-weight: bold;
-	font-size: $h2Mobile; 
+	font-size: 25px; 
+	@media only screen and (max-width: 767px){
+	font-size: 17px; }
+
 }
 
 .texto--fuente{
