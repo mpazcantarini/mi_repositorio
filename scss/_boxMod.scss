@@ -56,6 +56,8 @@ overflow: hidden;}
 	display: flex; flex-direction: column;}
 }
 
+
+
 .footer--padding {
 	@include padding;
 
@@ -68,6 +70,12 @@ overflow: hidden;}
 	padding-top:10px;
 	padding-bottom:10px;
 	}
+}
+
+.footer-left {
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
 }
 
 .subtitulo--padding {
@@ -93,8 +101,9 @@ overflow: hidden;}
 
 .cosmeticanatural__carousel--position {
 	margin-bottom:20px;
+
 	@media only screen and (min-width: 1024px){
-	display: flex;justify-content: center;}
+	display: flex;justify-content: flex-start;}
 	
 }
 
@@ -110,7 +119,9 @@ overflow: hidden;}
 
 .favoritos--padding {
 	@include padding;
-}
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;}
 
 .favoritos__carousel--padding{
 	padding-top:$padding;

@@ -84,7 +84,6 @@ $h2Mobile:30px;
 .texto--fuente{
 	font-family:$principal;
 	text-align: center;
-	font-weight: bold;
 	@media only screen and (min-width: 1024px){
 	font-size: 20px; text-align: justify; line-height:50px;
 	}
@@ -124,11 +123,17 @@ $h2Mobile:30px;
 
 .footer__texto--fuente h3{
 	@media only screen and (min-width:1024px){
-	font-size:25px;
+	font-size:20px;
 	}
 	@media only screen and (max-width:767px){
-	font-size:20px;
+	font-size:15px;
 	}
 }
 
+.copyright h3 {
+	font-family:$principal;
+	text-align: right;
+	font-size:14px;
+	text-decoration: none;
+}
 

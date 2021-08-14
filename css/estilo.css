@@ -7277,6 +7277,9 @@ body {
 .footer__texto--color h3 a {
   color: black; }
 
+.copyright {
+  color: black; }
+
 
 .container-fluid,
 .container-sm,
@@ -7338,6 +7341,11 @@ body {
       padding-top: 10px;
       padding-bottom: 10px; } }
 
+.footer-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+
 .subtitulo--padding {
   padding: 20px; }
 
@@ -7361,7 +7369,7 @@ body {
   @media only screen and (min-width: 1024px) {
     .cosmeticanatural__carousel--position {
       display: flex;
-      justify-content: center; } }
+      justify-content: flex-start; } }
 
 @media only screen and (min-width: 1024px) {
   .cosmeticanatural__texto--position {
@@ -7375,7 +7383,10 @@ body {
 
 .favoritos--padding {
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
 
 .favoritos__carousel--padding {
   padding-top: 20px;
@@ -7472,8 +7483,7 @@ body {
 
 .texto--fuente {
   font-family: "Nunito", sans-serif;
-  text-align: center;
-  font-weight: bold; }
+  text-align: center; }
   @media only screen and (min-width: 1024px) {
     .texto--fuente {
       font-size: 20px;
@@ -7512,8 +7522,14 @@ body {
 
 @media only screen and (min-width: 1024px) {
   .footer__texto--fuente h3 {
-    font-size: 25px; } }
+    font-size: 20px; } }
 
 @media only screen and (max-width: 767px) {
   .footer__texto--fuente h3 {
-    font-size: 20px; } }
+    font-size: 15px; } }
+
+.copyright h3 {
+  font-family: "Nunito", sans-serif;
+  text-align: right;
+  font-size: 14px;
+  text-decoration: none; }
